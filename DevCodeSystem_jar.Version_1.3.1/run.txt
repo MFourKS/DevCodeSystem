@@ -1,0 +1,1 @@
+java --module-path C:\Users\maksp\Desktop\Desktop\IDE\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml -jar C:\Users\maksp\Desktop\DevCodeSystem\out\artifacts\DevCodeSystem_jar\DevCodeSystem.jar
