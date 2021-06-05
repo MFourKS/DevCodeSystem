@@ -36,6 +36,7 @@
                   <FXCollections fx:factory="observableArrayList">
                      <String fx:value="Метод 'Стопки книг'" />
                      <String fx:value="Преобразование Барроуза — Уилера" />
+                     <String fx:value="Метод адаптивного кодирования Хафмена" />
                      <String fx:value="..............." />
                   </FXCollections>
                </items>
@@ -43,7 +44,7 @@
             <SplitMenuButton fx:id="codeDecode" layoutX="121.0" layoutY="384.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="257.0" text="Кодировать/Декодировать">
               <items>
                 <MenuItem fx:id="coder" mnemonicParsing="false" text="Кодировать" />
-                <MenuItem mnemonicParsing="false" text="NoAction" />
+                <MenuItem fx:id="decoder" mnemonicParsing="false" text="Декодировать" />
               </items>
                <font>
                   <Font name="Georgia" size="14.0" />
